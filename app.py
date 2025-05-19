@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # URLs de los archivos CSV
-clientes_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-ChocolateExport/main/clientes.csv"
-mercados_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-ChocolateExport/main/mercados.csv"
-exportaciones_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-ChocolateExport/main/exportaciones.csv"
-barreras_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-ChocolateExport/main/barreras.csv"
+clientes_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-Chocolate-Export/main/clientes.csv"
+mercados_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-Chocolate-Export/main/mercados.csv"
+exportaciones_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-Chocolate-Export/main/exportaciones.csv"
+barreras_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-Chocolate-Export/main/barreras.csv"
 
 # Cargar los datos
 clientes = pd.read_csv(clientes_url)
