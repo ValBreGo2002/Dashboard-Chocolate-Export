@@ -1,6 +1,3 @@
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
 # URLs de los archivos CSV
 clientes_url = "https://raw.githubusercontent.com/ValBreGo2002/Dashboard-ChocolateExport/main/clientes.csv"
 mercados_url = "https://raw.githubusercontent.com/ValBreGo2002/DashboardChocolate-Export/main/mercados.csv"
